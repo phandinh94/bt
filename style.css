@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    background: url("background-đẹp-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.container .name{
+    padding-top: 20vh;
+    text-align: center;
+}
+.container .name .text-g1{
+    font-size: 100px;
+    color: rgb(134, 185, 236);
+}
+.container .name .text-o1{  
+    font-size: 100px;
+    color: red ;
+}
+.container .name .text-o2{
+    color: rgb(232, 187, 104);
+    font-size: 100px;
+}
+.container .name .text-g2{
+    color: rgb(134, 185, 236);
+    font-size: 100px;
+}
+.container .name .text-l{
+color: rgb(98, 245, 176);
+font-size: 100px;
+}
+.container .name .text-e{ 
+    color: red;
+    font-size: 100px;
+ }
+.container .search{
+    text-align: center;
+} 
+.container .search .input{
+    margin: auto;
+    width: 70vh; 
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.container .List{
+    margin: auto;
+    width: 70vh;
+}
+.container .List .List-item {
+    display: flex;
+    border-top: 1px solid slategray; 
+}
+.container .List .List-item .tittle:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.container .List .List-item .list-img img{
+   width:7vh;
+   height: 7vh;
+}
+.container .List .List-item .tittle {
+    padding-left: 5px;
+    width: 70vh;
+    background-color: whitesmoke;
+    font-size: 15px;
+} 
+.container .List .List-item .tittle p{
+    color: rgb(120, 117, 117);
+}
+.container .List .List-item .tittle:hover{
+    color: rgb(54, 44, 64);
+}
